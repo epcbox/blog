@@ -1,14 +1,16 @@
+<script>
+</script>
 <template>
     <div class="navbar">
         <ul>
             <li>
-                <router-link :to="{name: home}">
+                <router-link :to="{name: 'home'}">
                    HOME
                 </router-link>
             </li>
             <li>ENTRIES</li>
             <li>
-                <router-link :to="{name: login}">
+                <router-link :to="{name: 'login-component'}">
                    LOGIN
                 </router-link>
             </li>
@@ -16,7 +18,7 @@
     </div>
 </template>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
 
     body {
         margin: 0;

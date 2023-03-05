@@ -1,10 +1,19 @@
 <template>
     <div>
         <HeaderComponent />
-        <h1>w4xccino's blog</h1>
+        <div class="title">
+            <h1>D.B</h1>
+        </div>
         Hello motherfuckers?
     </div>
 </template>
+<style>
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
 <script>
     import HeaderComponent from "./HeaderComponent.vue";
 
